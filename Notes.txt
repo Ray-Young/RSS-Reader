@@ -1,0 +1,10 @@
+1. XML的命名不能带有空格
+2. elements.setattribute   循环读入数据
+3. rsslib 解析RSS源文件，而后通过JAVA方法直接写入新的XML
+4. 必须用UTF-8，GBK不可行
+5. Image问题，会使指针变空。
+6. java对于xml的解析是基于字符串名匹配
+7. XML必须取绝对地址
+8. Schema的attribute必须写在最后，即在描述完该节点所有子节点后，对该节点加上attribute
+9. request.setCharacterEncoding("utf8");     使返回值设为UTF8
+10.String search_title = request.getParameter("content");    获取参数
